@@ -1,0 +1,160 @@
+html{
+    background-color: black;
+
+}
+.im1{
+    float: right;
+    width: 230px;
+    
+}
+.uno > h2{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.uno{
+    background-color: #494949;
+    color: wheat;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.uno > p {
+    padding-top: 50px;
+    font-size: 30px;
+}
+.im2{
+    float: left;
+    width: 230px;
+    
+}
+.dos > h2{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-align: right;
+}
+.dos{
+    background-color: #252525;
+    color: wheat;
+    height: 300px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.dos > p {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: right;
+}
+#sem{
+    width: 150px;
+}
+#ag{
+    width: 80px;
+}
+@media screen and (max-width: 1024px){
+    .im1{
+        width: 150px;
+    }
+    .uno > h2{
+        font-size: 2.1rem;
+    }
+    .uno{
+        height: 270px;
+    }
+    .uno > p {
+        font-size: 26px;
+    }
+    .im2{
+        width: 150px;
+    }
+    .dos > h2{
+        font-size: 2.1rem;
+    }
+    .dos{
+        height: 270px;
+    }
+    .dos > p {
+        font-size: 26px;
+    }
+    #sem{
+        width: 110px;
+    }
+    #ag{
+        width: 80px;
+    }
+}
+@media screen and (max-width: 790px){
+    .im1{
+        width: 130px;
+    }
+    .uno > h2{
+        font-size: 1.5rem;
+    }
+    .uno{
+        height: 230px;
+    }
+    .uno > p {
+        font-size: 20px;
+    }
+    .im2{
+        width: 130px;
+    }
+    .dos > h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .dos{
+        height: 230px;
+    }
+    .dos > p {
+        font-size: 20px;
+        text-align: center;
+    }
+    #sem{
+        width: 90px;
+    }
+    #ag{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 420px){
+    .im1{
+        width: 130px;
+        float: none;
+    }
+    .uno > h2{
+        font-size: 1.2rem;
+    }
+    .uno{
+        height: auto;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 12px;
+    }
+    .uno > p {
+        font-size: 18px;
+    }
+    .im2{
+        width: 130px;
+        float: none;
+    }
+    .dos > h2{
+        font-size: 1.2rem;
+    }
+    .dos{
+        height: auto;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 12px;
+    }
+    .dos > p {
+        font-size: 18px;
+    }
+    #sem{
+        width: 90px;
+    }
+    #ag{
+        width: 60px;
+    }
+}
